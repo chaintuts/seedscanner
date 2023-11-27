@@ -42,5 +42,11 @@ ____________
 
 ### Library Usage
 * `import seedscanner`
-* `scanner = seedscanner.SeedScanner("<directory to search>")
+* `scanner = seedscanner.SeedScanner("<directory to search>")`
 * `seeds = scanner.scan()`
+
+### GUI Usage
+* Run `python3 seedscannerui.py`
+* Select folder to search by clicking "Choose directory" button and using the file dialog
+* Run scan by clicking "Scan for seed phrases"
+* A list of found seeds and the total will populate the text box, or "No seeds found" will be indicated
