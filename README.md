@@ -50,3 +50,7 @@ ____________
 * Select folder to search by clicking "Choose directory" button and using the file dialog
 * Run scan by clicking "Scan for seed phrases"
 * A list of found seeds and the total will populate the text box, or "No seeds found" will be indicated
+
+### Run unit tests
+* Run `python -m pytest <test file>`
+* WARNING: Do not use the example seed phrases shown in the unit tests. Anyone could steal your coins!
