@@ -56,6 +56,7 @@ class SeedScanner:
             match = self.regex.search(contents)
 
             # Clean up any newlines/garbage from the string
+            seed = None
             if match:
                 seed = match.group(0).strip().replace("\n", "")
             
