@@ -3,5 +3,8 @@
 # Author: Josh McIntyre
 #
 
+# Do not include config files
+src/rpiconfig.py
+
 # Do not include built files
 bin/

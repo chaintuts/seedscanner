@@ -36,6 +36,7 @@ Clean the build directory
 * Windows
 * MacOSX
 * Linux
+* Raspberry Pi
 
 ## Usage
 ____________
@@ -45,11 +46,15 @@ ____________
 * `scanner = seedscanner.SeedScanner("<directory to search>")`
 * `seeds = scanner.scan()`
 
-### GUI Usage
+### Tkinter GUI Usage
 * Run `python3 seedscannerui.py`
 * Select folder to search by clicking "Choose directory" button and using the file dialog
 * Run scan by clicking "Scan for seed phrases"
 * A list of found seeds and the total will populate the text box, or "No seeds found" will be indicated
+
+### Pygame GUI Usage
+* Configure your own directory for finding seeds
+* Run `python3 seedscannerrpi.py`
 
 ### Run unit tests
 * Run `python -m pytest <test file>`
